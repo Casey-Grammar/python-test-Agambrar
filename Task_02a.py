@@ -29,7 +29,10 @@ def main():
   x="Task2a"
   #===============================
   # Write your code here
-    
+  text = input("Text: ")
+  if text == "Marco!":
+     print("Polo!") 
+  elif text == 
 
   # End of your code here
   #===============================

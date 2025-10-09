@@ -13,6 +13,9 @@ def main():
     x="Task1a"
     #===============================
     # Write your code here
+    shout = input("shout:")
+    print(shout,shout,shout)
+
   
     
 

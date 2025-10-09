@@ -1,4 +1,3 @@
-
 #Task 1b More Echos
 '''
 Task 1 More Echo (2marks)
@@ -18,7 +17,11 @@ def main():
     x="Task1b"
     #===============================
     # Write your code here
-
+    shout = input("Shout: ")
+    print(f"{shout} {shout} {shout}")
+    print(shout)
+    print(shout)
+    print(shout)
 
 
 

@@ -33,7 +33,13 @@ def main():
     x="Task6a"
     #===============================
     # Write your code here
-    
+    message = input("Say: ")
+    words = message.split()
+    last_word = words[-1]
+    emphasised_word = last_word + last_word[-1] *5 +"!"
+    words[-1] = emphasised_word
+    new_message = " ".join(words)
+    print(new_message)
 
     # End of your code here
     #===============================

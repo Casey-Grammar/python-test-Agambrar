@@ -15,8 +15,16 @@ def main():
     x="Task4b"
     #===============================
     # Write your code here
-    
-
+    age = int(input("How old are you? "))
+    print("=========================")
+    if age < 100:
+        print("Years untill your letter...")
+        print(100-age)
+    elif age == 100:
+        print("You got your letter this year!")
+    else:
+        print(f"You already got your letter {age-100} years ago")
+    print("=========================")
     # End of your code here
     #===============================
 

@@ -28,6 +28,17 @@ def main():
     x="Task6b"
     #===============================
     # Write your code here
+    message = input("Say: ")
+    words = message.split()
+    last_word = words[-1]
+    emphasised_word = last_word + last_word[-1] *5 +"!"
+    words[-1] = emphasised_word
+    new_word = last_word.replace('o','y')
+    print("New word!")
+    for letter in new_word:
+        print(letter)
+    new_word_emphasised = new_word + new_word[-1] * 5 +"!"
+    print(new_word_emphasised)
     
 
     # End of your code here
