@@ -38,7 +38,7 @@ def main():
     x="Task9a"
     #===============================
     # Write your code here
-    
+    racers = {"Dash","Speedy","Lightning" }
 
     # End of your code here
     #===============================
