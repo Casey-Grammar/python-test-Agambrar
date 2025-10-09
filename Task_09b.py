@@ -27,7 +27,17 @@ def main():
     x="Task9b"
     #===============================
     # Write your code here
-    
+    racers = {"Dash","Speedy","Lightning","Flash", "Sonic" }
+    asleep_racer = input("Who's gone to sleep? ")
+    asleep_racer_lower = asleep_racer_lower()
+    updated_racers = {racer for racer in racers if racer.lower() != asleep_racer_lower}
+    if len (updated_racers) == len(racers):
+        print("All the racers are still awake.")
+    else:
+        updated_racers.sort()
+        print("Remaining racers:")
+        for racer in updated_racers:
+            print(racer)
 
     # End of your code here
     #===============================
