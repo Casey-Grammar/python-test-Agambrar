@@ -41,8 +41,8 @@ def main():
     racers = {"Dash","Speedy","Lightning","Flash", "Sonic" }
     asleep_racer = input("Who's gone to sleep? ")
     if asleep_racer in racers:
-        index = racers.index(asleep_racer)
-        racers{index} = "Disqualified"
+        #index = racers.index(asleep_racer)
+        #racers{index} = "Disqualified"
         print(f"{asleep_racer} has been disqualified!")
     else:
         print("All snails still awake.")
